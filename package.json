@@ -1,0 +1,10 @@
+{
+  "name": "kyronis-site",
+  "private": true,
+  "scripts": {
+    "firebase:login": "npx firebase-tools login",
+    "firebase:use": "npx firebase-tools use --add",
+    "deploy": "npx firebase-tools deploy --only hosting",
+    "deploy:preview": "npx firebase-tools hosting:channel:deploy preview"
+  }
+}

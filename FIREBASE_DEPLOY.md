@@ -1,12 +1,14 @@
 # Firebase Deploy
 
-1. Set your Firebase project id in `.firebaserc`:
-   - Replace `your-firebase-project-id` with your real project id.
-2. Login to Firebase:
+1. Login to Firebase:
    - `npm run firebase:login`
-3. (Optional) Link/select project interactively:
+2. (Optional) Link/select project interactively:
    - `npm run firebase:use`
-4. Deploy hosting:
+3. List available Hosting sites:
+   - `npm run firebase:sites`
+4. Deploy this repo to Kyronis Hosting:
    - `npm run deploy`
-5. Connect custom domain in Firebase Console:
+5. Deploy to the Procura Hosting site from the same project:
+   - `npm run deploy:procura`
+6. Connect custom domain in Firebase Console:
    - Hosting -> Add custom domain -> follow DNS instructions for `kyronis.cloud` or subdomain.

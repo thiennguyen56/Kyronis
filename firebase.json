@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "target": "kyronis",
     "public": ".",
     "ignore": [
       "firebase.json",

@@ -4,7 +4,10 @@
   "scripts": {
     "firebase:login": "npx firebase-tools login",
     "firebase:use": "npx firebase-tools use --add",
-    "deploy": "npx firebase-tools deploy --only hosting",
+    "firebase:sites": "npx firebase-tools hosting:sites:list",
+    "deploy": "npx firebase-tools deploy --only hosting:kyronis",
+    "deploy:kyronis": "npx firebase-tools deploy --only hosting:kyronis",
+    "deploy:procura": "npx firebase-tools deploy --only hosting:procura",
     "deploy:preview": "npx firebase-tools hosting:channel:deploy preview"
   }
 }

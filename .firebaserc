@@ -1,5 +1,19 @@
 {
   "projects": {
-    "default": "your-firebase-project-id"
-  }
+    "default": "procura-5a607",
+    "production": "procura-5a607"
+  },
+  "targets": {
+    "procura-5a607": {
+      "hosting": {
+        "kyronis": [
+          "kyronis"
+        ],
+        "procura": [
+          "procura-5a607"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
